@@ -75,8 +75,28 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+*.ipynb
+*.ipynb_checkpoints
+
+# Виртуальное окружение
+venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
 
 # IPython
 profile_default/
